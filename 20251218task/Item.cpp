@@ -12,5 +12,5 @@ Item::Item(const string& name, int price) {
     price_ = price;
 }
 void Item::PrintInfo() const {
-    cout << "[이름: " << name_ << ", 가격: " << price_ << "G]" << endl;
+    cout << "[이름: " << name_ << ", 가격: " << price_ << "G]\n";
 }
