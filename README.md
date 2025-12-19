@@ -35,9 +35,4 @@ C++ 템플릿(Template)을 활용하여 다양한 타입의 아이템을 유연�
 ![도전 기능 - 복사 생성자 실행](./images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202025-12-18%20205723.png?raw=true)
 ![도전 기능 - 신규 아이템 추가 후 가격 순 오름차순 정렬](./images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202025-12-18%20205729.png?raw=true)
 
-## 📝 기타 참고 사항 (Notes)
-*   **개발 환경**: Visual Studio / C++14 이상 권장
-*   **메모리 관리**: `Inventory` 클래스 소멸자에서 `delete[]`를 호출하여 메모리 누수(Memory Leak)를 방지했습니다.
-*   **Copyright**: (c) 2025 Dongju Kim
-
 ---
